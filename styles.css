@@ -1,0 +1,217 @@
+*{
+    background-color: #809b9e;
+}
+
+header{
+    background-color: #00cc66;
+    width: 50%;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+
+}
+
+header b{
+    position: absolute;
+    background-color: #00cc66;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 24px;
+    font-family: Arial;
+}
+
+nav ul{
+    background-color: #1f4060;
+    width:50%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 5px solid seagreen;
+    border-bottom: 5px solid #00284d;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: #1f4060;
+    color: white;
+    font-size: 10px;
+    margin: 0 auto;
+    line-height: 36px;
+    width: 96px;
+    font-size: 12px;
+    font-family: Arial;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.welcome{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.welcome h3{
+    background-color: white;
+    margin: 0;
+    border-top: 40px solid white;
+    border-left: 20px solid white;
+    font-family: Arial;
+}
+
+.welcome p{
+    padding: 40px;
+    padding-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+}
+
+.beginner{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.beginner h3{
+    background-color: white;
+    width: 90%;
+    margin: 0;
+    border-top: 40px solid white;
+    border-left: 20px solid white;
+    border-bottom: 1px solid gray;
+    font-family: Arial;
+}
+
+.beginner p{
+    padding: 40px;
+    padding-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+}
+
+.beginner table{
+    background-color: gray;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.beginner table th{
+    background-color: lightgray;
+    font-size: 12px;
+    font-family: Arial;
+    text-align: left;
+    padding: 5px;
+}
+
+.beginner table td{
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial;
+    padding: 5px;
+}
+
+.col1{
+    width: 15%;
+}
+
+.col2{
+    width: 60%;
+    padding-left: 10px;
+}
+
+.col3{
+    width: 25%;
+    padding-left: 10px;
+}
+
+.beginner section{
+    background-color: lightgray;
+    width: 90%;
+    margin: 0 auto;
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.beginner img{
+    width: 90%;
+    height: 96px;
+    margin: 0 auto;
+    display: block;
+}
+
+.beginner ol{
+    padding: 40px;
+    padding-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+}
+
+.beginner li{
+    padding-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+}
+
+.beginner li b{
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+span{
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    color: lightgray;
+    padding-left: 20px;
+}
+
+span b{
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    color: lightgray;
+}
+
+/*
+.comments{
+    padding-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.comments h2{
+    background-color: white;
+    padding-left: 20px;
+}
+
+.comments form{
+    background-color: white;
+}
+
+.comments form input{
+    background-color: white;
+}
+
+textarea{
+    background-color: white;
+    width: 90%;
+    height: 125px;
+}
+*/
