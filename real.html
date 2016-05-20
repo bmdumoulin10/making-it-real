@@ -24,6 +24,21 @@
           comments at the bottom of the home page, good or bad!</p>
   </div>
   
+  <div class="side-box">
+      <h5>Recent Posts</h5>
+      <ul>
+          <li><a href="#">Another Post</a></li>
+          <li><a href="#">A Cool Story</a></li>
+          <li><a href="#">Useful Tips and Tricks</a></li>
+      </ul>
+      <h5>Categories</h5>
+      <ul>
+          <li><a href="#">Web</a></li>
+          <li><a href="#">Dev</a></li>
+          <li><a href="#">CSS</a></li>
+      </ul>
+  </div>
+  
   <div class="beginner">
       <h3>HTML, CSS, JS</h3>
           <p>One thing I have been working on lately is learnign the basics to 
@@ -39,20 +54,20 @@
                 <td>HTML</td>
                 <td>HTML is used to build the basic structure of your web page 
                 or website.</td>
-                <td class="button">Go!</td>
+                <td class="blue-button"><button type="button">Go!</button></td>
             </tr>
             <tr>
                 <td>CSS</td>
                 <td>CSS is used to add the style to your webpage or website and
                 it corresponds to the HTML document you create.</td>
-                <td class="button">Try!</td>
+                <td class="blue-button"><button type="button">Try!</button></td>
             </tr>
             <tr>
                 <td>JS</td>
                 <td>JS, or Javascript, is used to build functions and add more 
                 functionality to your webpage or website. It also corresponds to
                 the HTML document you create.</td>
-                <td class="button">View!</td>
+                <td class="blue-button"><button type="button">View!</button></td>
             </tr>
         </table>
         
@@ -96,21 +111,68 @@
           
           <span>Posted by <b>Brian Dumoulin</b> under <b>RefactorU</b> on <b>May 19, 2016</b></span>
   </div>
-<!--  
+
   <div class="comments">
       <h2>Comments</h2>
+      <h3><span>USER INFO</span></h3>
           <div>
               <form>
-                  Email<input type='text' name='Email' id='Email' /><br />
-                  Display Name<input type='text' name='display' id='display' /><br />
-                  Website<input type='text' name='website' id='website' /><br />
-                  Comment<br />
-                      <textarea name='comment' id='comment'></textarea><br />
+                  <label class="email">Email</label>
+                  <input type='text' name='Email' id='Email' /><br>
+                  
+                  <label class="display">Display Name</label>
+                  <input type='text' name='display' id='display' /><br>
+                  
+                  <label class="website">Website</label>
+                  <input type='text' name='website' id='website' /><br>
+                  
+                  <h3><span>COMMENT</span></h3>
+                      <textarea name='comment' id='comment'></textarea>
               </form>
+              
+              <div class="but-div">
+              <a href="http://designshack.net/" class="button">SUBMIT</a>
+              </div>
+              
+              <div>
+                <div class="feedback-img">
+                  <img src="http://a.deviantart.net/avatars/m/a/madara31.jpg?1">
+                  <strong>RockerMan66</strong>
+                  <p>January 13, 2014</p>
+                </div>
+                <div class="feedback-comments"><p>This site sucks!!!</p></div>
+              </div>
+                
+              <div class="feedback">
+                <div class="feedback-img">
+                  <img src="http://a.deviantart.net/avatars/m/a/madara31.jpg?1">
+                  <strong>RockerMan66</strong>
+                  <p>January 13, 2014</p>
+                </div>
+                <div class="feedback-comments"><p>jk jk it's not really that bad, but not very useful</p></div>
+              </div>
+              
+              <div class="feedback">
+                <div class="feedback-img">
+                  <img src="http://orig13.deviantart.net/aef0/f/2009/176/a/2/snake_icon_50x50_by_rosiesanimalhouse.gif">
+                  <strong>SnakesInAHouse</strong>
+                  <p>January 13, 2014</p>
+                </div>
+                <div class="feedback-comments"><p>RockerMan66 you're such a troll</p></div>
+              </div>
+              
+              <div>
+                <div class="feedback-img">
+                  <img src="http://orig12.deviantart.net/250e/f/2012/327/5/4/5405ca7130582d6cbda8cbe0bb0fc9a8-d5lwex1.gif">
+                  <strong>FireBall</strong>
+                  <p>January 13, 2014</p>
+                </div>
+                <div class="feedback-comments"><p class="last-p">This site is fiyah!!!!</p></div>
+              </div>
           </div>
 
   </div>
--->
+
   </div>
   <body>
       

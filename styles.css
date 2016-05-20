@@ -70,6 +70,39 @@ nav ul li{
     margin: 0;
 }
 
+.side-box{
+    width: 180px;
+    background-color: white;
+    float: right;
+    margin-right: 25px;
+    margin-top: -190px;
+    padding: 5px;
+    border-bottom: 3px solid dimgrey;
+}
+
+.side-box h5{
+    background-color: white;
+    font-family: Arial;
+    margin-top: 10px;
+}
+
+.side-box ul{
+    background-color: white;
+    list-style-type: none;
+}
+
+.side-box ul li{
+    background-color: white;
+}
+
+.side-box ul li a{
+    background-color: white;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
 .beginner{
     background-color: white;
     width: 50%;
@@ -131,6 +164,14 @@ nav ul li{
     padding-left: 10px;
 }
 
+.blue-button button{
+    background-color: deepskyblue;
+    color: white;
+    font-family: Arial;
+    border: 2px solid deepskyblue;
+    width: 100%;
+}
+
 .beginner section{
     background-color: lightgray;
     width: 90%;
@@ -171,7 +212,7 @@ nav ul li{
     font-size: 12px;
 }
 
-span{
+.beginner span{
     background-color: white;
     font-family: Arial;
     font-size: 12px;
@@ -186,7 +227,6 @@ span b{
     color: lightgray;
 }
 
-/*
 .comments{
     padding-top: 20px;
     background-color: white;
@@ -199,19 +239,118 @@ span b{
 .comments h2{
     background-color: white;
     padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.comments h3{
+    width: 90%; 
+    text-align: left; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 30px 0 20px; 
+}
+
+.comments span{
+    color: lightgray; 
+    padding:0 10px; 
+    background: white;
+    margin-left: 35px;
 }
 
 .comments form{
     background-color: white;
 }
 
+.comments form label{
+    background-color: white;
+}
+
 .comments form input{
     background-color: white;
+    width: 60%;
+    height: 20px;
+    margin: 3px;
 }
 
 textarea{
     background-color: white;
     width: 90%;
     height: 125px;
+    margin: 30px auto;
+    display: block;
+    margin-bottom: 0;
 }
-*/
+
+.email{
+    margin-left: 96px;
+}
+
+.display{
+    margin-left: 52px;
+}
+
+.website{
+    margin-left: 84px;
+}
+
+.but-div{
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+
+.button{
+    display: block;
+    height: 35px;
+    width: 90%;
+    background: darkred;
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    text-align: center;
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+.feedback-img{
+    background-color: white;
+    border-left: 1px solid lightgray;
+    border-top: 10px solid white;
+}
+
+.feedback-img img{
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+
+}
+.feedback-img strong{
+    margin-left: 10px;
+    background-color: white;
+}
+
+.feedback-img p{
+    background-color: white;
+    margin-left: 80px;
+    color: lightgray;
+    height: 25px;
+    margin-bottom: 0;
+
+}
+
+.feedback-comments p{
+    background-color: white;
+    padding-left: 20px;
+    margin: 0;
+    border-left: 1px solid lightgray;
+}
+
+.feedback{
+    background-color: white;
+    padding-left: 50px;
+}
+
+.last-p{
+    padding-bottom: 30px;
+}
